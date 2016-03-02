@@ -5,19 +5,20 @@ require "phcnotifi/version"
 
 # Gemspec and Dependencies
 Gem::Specification.new do |s|
+
 	s.name        = "phcnotifi"
 	s.version     = Phcnotifi::VERSION
 	s.authors     = ["Brad Potts"]
 	s.email       = ["bradley.j.potts@gmail.com"]
 	s.homepage    = "http://www.phcnetworks.net"
 	s.summary     = "PHCNetworks Notifier"
-	s.description = "PHC-Notifi with bootstrap styled norifications/form validations for your ruby on rails app."
+	s.description = "(Under Development) PHC-Notifi with bootstrap styled norifications/form validations for your ruby on rails app."
 	s.license     = "GPL-3.0"
 
 	s.files = Dir["{app,config,db,lib}/**/*", "LICENSE", "Rakefile", "README.md"]
 
 	# Main Dependencies
-	s.add_dependency "rails", "~> 4.2.5"
+	s.add_dependency 'rails', '~> 4.2', '>= 4.2.5.2'
 
 	# UI & Frontend Elements
 	s.add_dependency 'jquery-rails', '~> 4.0', '>= 4.0.5'
