@@ -14,6 +14,10 @@
 *= require_self
 */
 
+// Bootstrap & Font Awesome
 @import "bootstrap";
 @import "bootstrap-sprockets";
 @import "font-awesome";
+
+// Custom Alterations
+@import "custom";

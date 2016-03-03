@@ -1,6 +1,6 @@
 require 'rails/generators/base'
 
-module Phcmembers
+module Phcnotifi
 
 	module Generators
 
