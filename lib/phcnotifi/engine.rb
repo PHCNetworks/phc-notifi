@@ -27,7 +27,6 @@ module Phcnotifi
 		# Load Helper Files
 		config.to_prepare do
 			ApplicationController.helper(ApplicationHelper)
-			ApplicationController.helper(Phcnotifi::NotifiHelper)
 		end
 		
 		# Auto Mount Plugin
