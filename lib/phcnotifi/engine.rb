@@ -24,9 +24,10 @@ module Phcnotifi
 			g.fixture_replacement :factory_girl, dir: "spec/factories"
 		end
 		
-		# Load Helper Files (Prevents Problems)
+		# Load Helper Files
 		config.to_prepare do
 			ApplicationController.helper(ApplicationHelper)
+			ApplicationController.helper(Phcnotifi::NotifiHelper)
 		end
 		
 		# Auto Mount Plugin
