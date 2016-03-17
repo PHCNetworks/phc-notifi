@@ -8,7 +8,7 @@ PHCNotifi is a notification and form validation gem using Bootstrap 3 styles for
   
 #### Step 1 - Add PHC-Notifi to your gemfile  
   
-	gem 'phcnotifi', '~> 0.3.6'
+	gem 'phcnotifi', '~> 0.4.0'
 	bundle exec install  
  
 #### Step 2 - Recompile Assets  
