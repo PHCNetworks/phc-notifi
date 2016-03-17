@@ -4,11 +4,15 @@ require File.expand_path('../test_app/config/environment', __FILE__)
 
 # Prevent database truncation if the environment is production
 abort("The Rails environment is running in production mode!") if Rails.env.production?
+#require 'codeclimate-test-reporter'
 require 'spec_helper'
 require 'rspec/rails'
 require 'capybara/rspec'
 require 'better_errors'
 require 'binding_of_caller'
+
+# Start CodeClimate
+#CodeClimate::TestReporter.start
 
 # Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
 
