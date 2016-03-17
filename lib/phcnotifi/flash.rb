@@ -1,4 +1,5 @@
 module Phcnotifi
+	module Flash
 
 		# Bootstrap Notification System
 		def flash_class(level)
@@ -10,4 +11,5 @@ module Phcnotifi
 			end
 		end
 
+	end
 end
