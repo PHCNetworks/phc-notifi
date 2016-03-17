@@ -6,6 +6,7 @@ module Phcnotifi
 		require 'sass-rails'
 		require 'bootstrap-sass'
 		require 'font-awesome-rails'
+		require 'phcnotifi/flash'
 
 		require 'figaro'
 
