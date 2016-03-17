@@ -28,6 +28,13 @@ module Phcnotifi
 		config.to_prepare do
 			ApplicationController.helper(ApplicationHelper)
 		end
+		
+		# Auto Mount Plugin
+		initializer "phcnotifi", before: :load_config_initializers do |app|
+			Rails.application.routes.append do
+				mount Phcnotifi::Engine, at: "/"
+			end
+		end
 
 	end
 end
