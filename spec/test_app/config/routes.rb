@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
 
-  mount Phcnotifi::Engine => "/phcnotifi"
+	# Root to Website FrontPage
+	root 'welcome#home'
+
 end
