@@ -6,7 +6,7 @@
 ### PHC-Notifi(2) (Form Validation & Notification Engine) Documentation
 PHCNotifi is an open source notification and form validation engine built for PHCNetworks apps.
   
-#### Step 1 - Add PHC-Notifi to your gemfile  
+#### Step 1 - Add PHCNotifi to your gemfile  
   
 	gem 'phcnotifi', '~> 2.0', '>= 2.0.1'
 	bundle exec install  
