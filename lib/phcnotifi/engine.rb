@@ -6,12 +6,24 @@ module Phcnotifi
 		require 'sass-rails'
 		require 'bootstrap-sass'
 		require 'font-awesome-rails'
-		require 'phcnotifi/flash'
-
+		
+		# Configuration
 		require 'figaro'
 
 		# Isolate Namespace for PHC Members
 		isolate_namespace Phcnotifi
+		
+		# Load Requried Helper Files
+		config.to_prepare do
+			ApplicationController.helper(ApplicationHelper)
+		end
+
+		# Auto Mount Plugin
+		initializer "phcnotifi", before: :load_config_initializers do |app|
+			Rails.application.routes.append do
+				mount Phcnotifi::Engine, at: "/"
+			end
+		end
 		
 		# Testing Generator
 		config.generators do |g|
@@ -23,18 +35,6 @@ module Phcnotifi
 			controller_specs: true,
 			request_specs: false
 			g.fixture_replacement :factory_girl, dir: "spec/factories"
-		end
-		
-		# Load Helper Files
-		config.to_prepare do
-			ApplicationController.helper(ApplicationHelper)
-		end
-		
-		# Auto Mount Plugin
-		initializer "phcnotifi", before: :load_config_initializers do |app|
-			Rails.application.routes.append do
-				mount Phcnotifi::Engine, at: "/"
-			end
 		end
 
 	end
