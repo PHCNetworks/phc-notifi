@@ -14,9 +14,9 @@ module Phcnotifi
 		isolate_namespace Phcnotifi
 		
 		# Load Requried Helper Files
-		config.to_prepare do
-			ApplicationController.helper(ApplicationHelper)
-		end
+        config.to_prepare do
+            ApplicationController.helper(Phctitler::ApplicationHelper)
+        end
 
 		# Auto Mount Plugin
 		initializer "phcnotifi", before: :load_config_initializers do |app|
