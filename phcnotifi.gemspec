@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
 
 	spec.name        = "phcnotifi"
 	spec.version     = Phcnotifi::VERSION
-	spec.authors     = ["Brad Potts"]
+	spec.authors     = ["BradPotts"]
 	spec.email       = ["info@phcnetworks.net"]
 	spec.homepage    = "http://www.phcnetworks.net/engine-yard"
 	spec.summary     = "Rails Validations & Notifications"
