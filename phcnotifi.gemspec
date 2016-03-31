@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
 	spec.files = Dir["{app,config,db,lib}/**/*", "LICENSE", "Rakefile", "README.md"]
 
 	# Main Dependencies
-	spec.add_dependency 'rails', '~> 4.2', '>= 4.2.5.2'
+	spec.add_dependency 'rails', '~> 4.2', '>= 4.2.6'
 
 	# UI & Frontend Elements
 	spec.add_dependency 'jquery-rails', '~> 4.0', '>= 4.0.5'

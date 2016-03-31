@@ -9,21 +9,11 @@ module Phcnotifi
 		
 		# Configuration
 		require 'figaro'
-
-		# Isolate Namespace for PHC Members
-		isolate_namespace Phcnotifi
 		
 		# Load Requried Helper Files
         config.to_prepare do
-            ApplicationController.helper(Phctitler::ApplicationHelper)
+            ApplicationController.helper(Phcnotifi::ApplicationHelper)
         end
-
-		# Auto Mount Plugin
-		initializer "phcnotifi", before: :load_config_initializers do |app|
-			Rails.application.routes.append do
-				mount Phcnotifi::Engine, at: "/"
-			end
-		end
 		
 		# Testing Generator
 		config.generators do |g|
