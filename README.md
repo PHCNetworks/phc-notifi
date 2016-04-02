@@ -11,13 +11,12 @@ PHCNotifi(2) is an open source notification & validation engine built for PHCNet
 	gem 'phcnotifi', '~> 2.6'
 	bundle exec install
   
-#### Step 3 - Include Engine Helpers in application controller   
+#### Step 2 - Load helper files in application_controller.rb   
   
 	helper Phcnotifi::Engine.helpers
   
-#### Step 2 - Recompile Assets  
+#### Step 3 - Recompile Assets  
 Our UI requires Bootstrap and FontAwesome to operate.  
-(Minor bug will throw error please ignore for now)  
   
 	rake assets:clobber
 	rake assets:precompile  
