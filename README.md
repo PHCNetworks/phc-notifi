@@ -11,7 +11,7 @@ PHCNotifi(2) is an open source notification & validation engine built for PHCNet
 	gem 'phcnotifi', '~> 2.6'
 	bundle exec install
   
-#### Step 2 - Load helper files in application_controller.rb   
+#### Step 2 - Load helpers files in application_controller.rb   
   
 	helper Phcnotifi::Engine.helpers
   
@@ -28,7 +28,7 @@ Add the below line to your layout file.
   
 	<%= render 'phcnotifi/notifications' %>
   
-#### Add Validations to your Form.
+#### Add Validations to your Form
 Add the below line to your form file changing @example_object to one on your form.  
 
 	<%= render 'phcnotifi/validations', :object => @example_object %>
