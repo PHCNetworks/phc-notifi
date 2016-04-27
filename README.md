@@ -8,7 +8,7 @@ PHCNotifi(2) is an open source notification & validation engine built for PHCNet
   
 #### Step 1 - Add PHCNotifi to your gemfile  
     
-	gem 'phcnotifi', '~> 2.6', '>= 2.6.5'
+	gem 'phcnotifi', '~> 2.6', '>= 2.6.6'
 	bundle exec install
   
 #### Step 2 - Load helpers files in application_controller.rb   
