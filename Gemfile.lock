@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    phcnotifi (2.6.5)
+    phcnotifi (2.6.6)
       bootstrap-sass (~> 3.3, >= 3.3.6)
       font-awesome-rails (~> 4.6, >= 4.6.1.0)
       jquery-rails (~> 4.1, >= 4.1.1)
@@ -173,7 +173,7 @@ GEM
     tilt (2.0.2)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    websocket (1.2.2)
+    websocket (1.2.3)
     xpath (2.0.0)
       nokogiri (~> 1.3)
 
