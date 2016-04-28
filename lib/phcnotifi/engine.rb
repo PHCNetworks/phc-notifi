@@ -7,9 +7,6 @@ module Phcnotifi
 		require 'bootstrap-sass'
 		require 'font-awesome-rails'
 		
-		# Configuration
-		require 'figaro'
-		
 		# Load Requried Helper Files
         config.to_prepare do
             ApplicationController.helper(Phcnotifi::ApplicationHelper)
