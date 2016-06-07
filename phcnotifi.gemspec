@@ -9,10 +9,10 @@ Gem::Specification.new do |spec|
 	spec.name        = "phcnotifi"
 	spec.version     = Phcnotifi::VERSION
 	spec.authors     = ["BradPotts"]
-	spec.email       = ["info@phcnetworks.net"]
-	spec.homepage    = "http://www.phcnetworks.net/engine-yard"
-	spec.summary     = "Rails Validations & Notifications"
-	spec.description = "PHCNotifi(2) is an open source notification & validation engine built for PHCNetworks."
+	spec.email       = ["developers@phcnetworks.net"]
+	spec.homepage    = "https://www.phcnetworks.net/"
+	spec.summary     = "Rails Validations Notfier & Notifications Engine"
+	spec.description = "PHCNotifi(2) is a general notification and form validation notifier engine."
 	spec.license     = "GPL-3.0"
 
 	spec.files = Dir["{app,config,db,lib}/**/*", "LICENSE", "Rakefile", "README.md"]
