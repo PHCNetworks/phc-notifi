@@ -21,7 +21,6 @@ Gem::Specification.new do |spec|
 	spec.add_dependency 'rails', '~> 4.2', '>= 4.2.6'
 	spec.add_dependency 'responders', '~> 2.2'
 	spec.add_dependency 'multi_json', '~> 1.12', '>= 1.12.1'
-	spec.add_dependency 'phctitleseo', '~> 2.0'
 
 	# UI & Frontend Elements
 	spec.add_dependency 'jquery-rails', '~> 4.1', '>= 4.1.1'

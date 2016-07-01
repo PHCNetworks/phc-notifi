@@ -1,14 +1,13 @@
 PATH
   remote: .
   specs:
-    phcnotifi (2.7.0)
+    phcnotifi (2.7.1)
       bootstrap-sass (~> 3.3, >= 3.3.6)
       font-awesome-rails (~> 4.6, >= 4.6.3.1)
       jquery-rails (~> 4.1, >= 4.1.1)
       jquery-ui-rails (~> 5.0, >= 5.0.5)
       multi_json (~> 1.12, >= 1.12.1)
       oj (~> 2.16, >= 2.16.1)
-      phctitleseo (~> 2.0)
       rabl (~> 0.12.0)
       rails (~> 4.2, >= 4.2.6)
       responders (~> 2.2)
@@ -116,12 +115,6 @@ GEM
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
     oj (2.16.1)
-    phctitleseo (2.0.0)
-      bootstrap-sass (~> 3.3, >= 3.3.6)
-      font-awesome-rails (~> 4.6, >= 4.6.1.0)
-      jquery-rails (~> 4.1, >= 4.1.1)
-      rails (~> 4.2, >= 4.2.6)
-      sass-rails (~> 5.0, >= 5.0.4)
     pkg-config (1.1.7)
     rabl (0.12.0)
       activesupport (>= 2.3.14)
