@@ -3,8 +3,8 @@
 [![Issue Count](https://codeclimate.com/github/PHCNetworks/phc-notifi/badges/issue_count.svg)](https://codeclimate.com/github/PHCNetworks/phc-notifi)
 [![Gem Version](https://badge.fury.io/rb/phcnotifi.svg)](https://badge.fury.io/rb/phcnotifi)
   
-### PHC-Notifi(2) (Form Validation & Notification Engine) Documentation
-PHCNotifi(2) is an open source notification & validation engine built for PHCNetworks.  
+### PHC-Notifi(3) (Form Validation & Notification Engine) Documentation
+PHCNotifi(3) is an open source notification & validation engine built for PHCNetworks.  
   
 #### Step 1 - Add PHCNotifi to your gemfile  
     
