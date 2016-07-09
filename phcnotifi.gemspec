@@ -19,8 +19,6 @@ Gem::Specification.new do |spec|
 
 	# Main Dependencies
 	spec.add_dependency 'rails', '~> 5.0', '>= 5.0.0'
-	spec.add_dependency 'multi_json', '~> 1.12', '>= 1.12.1'
-	spec.add_dependency 'pg', '~> 0.18.4'
 
 	# UI & Frontend Elements
 	spec.add_dependency 'jquery-rails', '~> 4.1', '>= 4.1.1'
