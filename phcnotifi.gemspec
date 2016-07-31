@@ -19,13 +19,16 @@ Gem::Specification.new do |spec|
 
 	# Main Dependencies
 	spec.add_dependency 'rails', '~> 5.0', '>= 5.0.0'
+	spec.add_dependency 'pg', '~> 0.18.4'
 
 	# UI & Frontend Elements
 	spec.add_dependency 'jquery-rails', '~> 4.1', '>= 4.1.1'
 	spec.add_dependency 'jquery-ui-rails', '~> 5.0', '>= 5.0.5'
-	spec.add_dependency 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+	spec.add_dependency 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 	spec.add_dependency 'font-awesome-rails', '~> 4.6', '>= 4.6.3.1'
 	spec.add_dependency 'sass-rails', '~> 5.0', '>= 5.0.5'
+	spec.add_dependency 'country_select', '~> 2.5', '>= 2.5.2'
+	spec.add_dependency 'gravtastic', '~> 3.2', '>= 3.2.6'
 
 	# Development & Testing Dependencies
 	spec.add_development_dependency 'rspec-rails', '~> 3.5'
