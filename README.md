@@ -26,3 +26,7 @@ Add the below line to your form file changing @example_object to one on your for
 
 	<%= render 'phcnotifi/validations', :object => @example_object %>
   
+#### Additional Information
+
+- [Critical Security Updates](https://github.com/PHCNetworks/phc-notifi/wiki/Critical-Security-Updates)
+  
