@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
 	spec.add_dependency 'pg', '~> 0.18.4'
 
 	# UI & Frontend Elements
-	spec.add_dependency 'jquery-rails', '~> 4.1', '>= 4.1.1'
+	spec.add_dependency 'jquery-rails', '~> 4.2', '>= 4.2.1'
 	spec.add_dependency 'jquery-ui-rails', '~> 5.0', '>= 5.0.5'
 	spec.add_dependency 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 	spec.add_dependency 'font-awesome-rails', '~> 4.6', '>= 4.6.3.1'
