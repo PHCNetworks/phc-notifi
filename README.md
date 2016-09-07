@@ -1,14 +1,14 @@
 [![security](https://hakiri.io/github/PHCNetworks/phc-notifi/master.svg)](https://hakiri.io/github/PHCNetworks/phc-notifi/master)
 [![Code Climate](https://codeclimate.com/github/PHCNetworks/phc-notifi/badges/gpa.svg)](https://codeclimate.com/github/PHCNetworks/phc-notifi)
-[![Issue Count](https://codeclimate.com/github/PHCNetworks/phc-notifi/badges/issue_count.svg)](https://codeclimate.com/github/PHCNetworks/phc-notifi)
-[![Gem Version](https://badge.fury.io/rb/phcnotifi.svg)](https://badge.fury.io/rb/phcnotifi)
-  
+[![Dependency Status](https://gemnasium.com/badges/github.com/PHCNetworks/phc-notifi.svg)](https://gemnasium.com/github.com/PHCNetworks/phc-notifi)
+[![Gem Version](https://badge.fury.io/rb/phcnotifi.svg)](https://badge.fury.io/rb/phcnotifi)  
+    
 ### PHC-Notifi(3) (Form Validation & Notification Engine) Documentation
 PHCNotifi(3) is an open source notification & validation engine built for PHCNetworks.  
   
 #### Step 1 - Add PHCNotifi to your gemfile  
     
-	gem 'phcnotifi', '~> 3.3', '>= 3.3.2'
+	gem 'phcnotifi', '~> 3.3', '>= 3.3.3'
 	bundle install
   
 #### Step 2 - Load helpers files in application_controller.rb   
