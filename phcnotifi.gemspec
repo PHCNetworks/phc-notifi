@@ -11,8 +11,8 @@ Gem::Specification.new do |spec|
 	spec.authors     = ["BradPotts"]
 	spec.email       = ["developers@phcnetworks.net"]
 	spec.homepage    = "https://webdev.phcnetworks.net/"
-	spec.summary     = "Rails Validations Notfier & Notifications Engine"
-	spec.description = "PHCNotifi(3) is a general notification and form validation notifier engine."
+	spec.summary     = "Form Validations Notfier & Notifications Engine"
+	spec.description = "PHCNotifi(3) a general notification and form validation notifier engine."
 	spec.license     = "MIT"
 
 	spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
@@ -41,6 +41,6 @@ Gem::Specification.new do |spec|
 
 	spec.add_development_dependency 'faker', '~> 1.6', '>= 1.6.6'
 	spec.add_development_dependency 'launchy', '~> 2.4', '>= 2.4.3'
-	spec.add_development_dependency 'selenium-webdriver', '~> 3.0'
+	spec.add_development_dependency 'selenium-webdriver', '~> 3.0', '>= 3.0.1'
 
 end
