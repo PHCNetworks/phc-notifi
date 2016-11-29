@@ -15,18 +15,19 @@ PHCNotifi(3) rails engine with helpers for on-screen alerts and form validation 
 	gem 'phcnotifi', '~> 3.3', '>= 3.4.0'
 	bundle install
   
-#### Step 2 - Load helpers files in application_controller.rb   
+#### Step 2 - Load Helpers in the Application's Controller  
+Add the line of code below into your app/controllers/application_controller.rb (application's controller file).  
   
 	helper Phcnotifi::Engine.helpers
   
-#### Add Notifications to Layouts
-Add the below line to your layout file.  
-(Usually Above <%= yield %> but not necessary)
+#### How to Add Notifications to Layouts
+Add the line of code below to your app/views/layouts/application.rb (application's layouts file).  
+(Usually Above <%= yield %> but not necessary.)
   
 	<%= render 'phcnotifi/notifications' %>
   
-#### Add Validations to your Form
-Add the below line to your form file changing @example_object to one on your form.  
+#### How to Add Validations to your Form
+Add the line of code below to your _form.rb file. Changing @example_object to the sameone on your form.  
 
 	<%= render 'phcnotifi/validations', :object => @example_object %>
   

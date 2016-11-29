@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 	spec.email       = ["developers@phcnetworks.net"]
 	spec.homepage    = "https://webdev.phcnetworks.net/"
 	spec.summary     = "PHCNotifi(3)"
-	spec.description = "PHCNotifi(3) rails engine with helpers for on screen alerts and form validation notifications."
+	spec.description = "PHCNotifi(3) rails engine with helpers for on-screen alerts and form validation notifications."
 	spec.license     = "MIT"
 
 	spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
