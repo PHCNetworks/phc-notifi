@@ -11,8 +11,8 @@ Gem::Specification.new do |spec|
 	spec.authors     = ["BradPotts"]
 	spec.email       = ["developers@phcnetworks.net"]
 	spec.homepage    = "https://webdev.phcnetworks.net/"
-	spec.summary     = "Form Validations Notfier & Notifications Engine"
-	spec.description = "PHCNotifi(3) a general notification and form validation notifier engine."
+	spec.summary     = "PHCNotifi(3)"
+	spec.description = "PHCNotifi(3) rails engine with helpers for on screen alerts and form validation notifications."
 	spec.license     = "MIT"
 
 	spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
 
 	# UI & Frontend Elements
 	spec.add_dependency 'jquery-rails', '~> 4.2', '>= 4.2.1'
-	spec.add_dependency 'jquery-ui-rails', '~> 5.0', '>= 5.0.5'
+	spec.add_dependency 'jquery-ui-rails', '~> 6.0'
 	spec.add_dependency 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 	spec.add_dependency 'font-awesome-rails', '~> 4.7'
 	spec.add_dependency 'sass-rails', '~> 5.0', '>= 5.0.6'
@@ -41,6 +41,6 @@ Gem::Specification.new do |spec|
 
 	spec.add_development_dependency 'faker', '~> 1.6', '>= 1.6.6'
 	spec.add_development_dependency 'launchy', '~> 2.4', '>= 2.4.3'
-	spec.add_development_dependency 'selenium-webdriver', '~> 3.0', '>= 3.0.2'
+	spec.add_development_dependency 'selenium-webdriver', '~> 3.0', '>= 3.0.3'
 
 end

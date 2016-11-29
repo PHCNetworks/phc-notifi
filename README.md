@@ -4,11 +4,15 @@
 [![Gem Version](https://badge.fury.io/rb/phcnotifi.svg)](https://badge.fury.io/rb/phcnotifi)  
     
 ### PHC-Notifi(3) (Form Validation & Notification Engine) Documentation
-PHCNotifi(3) is an open source notification & validation engine built for PHCNetworks.  
+PHCNotifi(3) rails engine with helpers for on screen alerts and form validation notifications.  
+  
+- Add alert and form validation helpers to any project.
+- Setup in seconds with only one line of code in the application_helper file.
+- Save time and keep your rails projects manageable, tidy and secure.
   
 #### Step 1 - Add PHCNotifi to your gemfile  
     
-	gem 'phcnotifi', '~> 3.3', '>= 3.3.5'
+	gem 'phcnotifi', '~> 3.3', '>= 3.3.8'
 	bundle install
   
 #### Step 2 - Load helpers files in application_controller.rb   
