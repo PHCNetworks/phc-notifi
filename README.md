@@ -12,7 +12,7 @@ PHCNotifi(3) rails engine with helpers for on-screen alerts and form validation 
   
 #### Step 1 - Add PHCNotifi to your gemfile  
     
-	gem 'phcnotifi', '~> 3.3', '>= 3.4.0'
+	gem 'phcnotifi', '~> 3.3', '>= 3.4.1'
 	bundle install
   
 #### Step 2 - Load Helpers in the Application's Controller  
