@@ -1,9 +1,9 @@
 $:.push File.expand_path("../lib", __FILE__)
 
-# Maintain your gem's version:
+# Gem Version
 require "phcnotifi/version"
 
-# Describe your gem and declare its dependencies:
+# Gem Information
 Gem::Specification.new do |spec|
 
 	spec.name        = "phcnotifi"
@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 	# Main Dependencies
 	spec.add_dependency 'rails', '~> 5.0', '>= 5.0.0.1'
 	spec.add_dependency 'pg', '~> 0.19.0'
-	spec.add_dependency 'paper_trail', '~> 6.0'
+	spec.add_dependency 'paper_trail', '~> 6.0', '>= 6.0.1'
 
 	# UI & Frontend Dependencies
 	spec.add_dependency 'jquery-rails', '~> 4.2', '>= 4.2.1'
