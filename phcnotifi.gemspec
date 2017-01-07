@@ -3,6 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 # Gem Versioning
 require "phcnotifi/version"
 
+# Gem Specification Information
 Gem::Specification.new do |spec|
 
 	spec.name        = "phcnotifi"
@@ -10,10 +11,11 @@ Gem::Specification.new do |spec|
 	spec.authors     = ["BradPotts"]
 	spec.email       = ["info@phcnetworks.net"]
 	spec.homepage    = "https://phcnetworks.net/"
-	spec.summary     = "PHCNotifi(3) Rails Notification Engine"
+	spec.summary     = "PHCNotifi Rails Notification Engine"
 	spec.description = "PHCNotifi(3) rails engine with helpers for alerts and form validation notifications."
 	spec.license     = "MIT"
 
+	#Load Engine Files
 	spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
 	# Main Dependencies
@@ -36,10 +38,10 @@ Gem::Specification.new do |spec|
 	spec.add_development_dependency 'capybara', '~> 2.11'
 	spec.add_development_dependency 'byebug', '~> 9.0', '>= 9.0.6'
 
-	spec.add_development_dependency 'sqlite3', '~> 1.3', '>= 1.3.12'
+	spec.add_development_dependency 'sqlite3', '~> 1.3', '>= 1.3.13'
 	spec.add_development_dependency 'database_cleaner', '~> 1.5', '>= 1.5.3'
 
-	spec.add_development_dependency 'faker', '~> 1.7', '>= 1.7.1'
+	spec.add_development_dependency 'faker', '~> 1.7', '>= 1.7.2'
 	spec.add_development_dependency 'launchy', '~> 2.4', '>= 2.4.3'
 	spec.add_development_dependency 'selenium-webdriver', '~> 3.0', '>= 3.0.5'
 
