@@ -1,7 +1,8 @@
 [![security](https://hakiri.io/github/PHCNetworks/phc-notifi/master.svg)](https://hakiri.io/github/PHCNetworks/phc-notifi/master)
 [![Code Climate](https://codeclimate.com/github/PHCNetworks/phc-notifi/badges/gpa.svg)](https://codeclimate.com/github/PHCNetworks/phc-notifi)
 [![Dependency Status](https://gemnasium.com/badges/github.com/PHCNetworks/phc-notifi.svg)](https://gemnasium.com/github.com/PHCNetworks/phc-notifi)
-[![Gem Version](https://badge.fury.io/rb/phcnotifi.svg)](https://badge.fury.io/rb/phcnotifi)  
+[![Gem Version](https://badge.fury.io/rb/phcnotifi.svg)](https://badge.fury.io/rb/phcnotifi)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/PHCNetworks/phc-notifi/blob/master/MIT-LICENSE)  
 
 ### PHC-Notifi(3) (Form Validation & Notification Engine) Documentation
 PHCNotifi(3) rails engine with helpers for alerts and form validation notifications.  
