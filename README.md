@@ -34,4 +34,3 @@ Add the line of code below to your _form.rb file. Change @example_object to the 
 #### Additional Information
 
 - [Critical Security Updates](https://github.com/PHCNetworks/phc-notifi/wiki/Critical-Security-Updates)
-  

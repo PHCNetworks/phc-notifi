@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    phcnotifi (3.9.0)
+    phcnotifi (3.9.1)
       bootstrap-sass (~> 3.3, >= 3.3.7)
       country_select (~> 3.0)
       font-awesome-rails (~> 4.7, >= 4.7.0.1)
