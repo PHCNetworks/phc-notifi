@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.email       = ["info@phcnetworks.net"]
   spec.homepage    = "https://phcnetworks.net/"
   spec.summary     = "PHCNotifi Rails Notification Engine"
-  spec.description = "PHCNotifi(3) rails engine with helpers for alerts and form validation notifications."
+  spec.description = "PHCNotifi(4) rails engine with helpers for alerts and form validation notifications."
   spec.license     = "MIT"
 
   #Load Engine Files
@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   # Main Dependencies
   spec.add_dependency 'rails', '~> 5.0', '>= 5.0.2'
-  spec.add_dependency 'pg', '~> 0.19.0'
+  spec.add_dependency 'pg', '~> 0.20.0'
   spec.add_dependency 'paper_trail', '~> 6.0', '>= 6.0.2'
 
   # UI & Frontend Dependencies
