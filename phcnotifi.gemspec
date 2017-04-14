@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   # Main Dependencies
   spec.add_dependency 'rails', '~> 5.0', '>= 5.0.2'
   spec.add_dependency 'pg', '~> 0.20.0'
-  spec.add_dependency 'paper_trail', '~> 7.0'
+  spec.add_dependency 'paper_trail', '~> 7.0', '>= 7.0.1'
 
   # UI & Frontend Dependencies
   spec.add_dependency 'jquery-rails', '~> 4.3', '>= 4.3.1'
