@@ -43,6 +43,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'faker', '~> 1.7', '>= 1.7.3'
   spec.add_development_dependency 'launchy', '~> 2.4', '>= 2.4.3'
-  spec.add_development_dependency 'selenium-webdriver', '~> 3.3'
+  spec.add_development_dependency 'selenium-webdriver', '~> 3.4'
 
 end
