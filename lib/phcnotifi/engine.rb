@@ -1,6 +1,6 @@
 module Phcnotifi
   class Engine < ::Rails::Engine
-  
+
     # UI & Frontend Dependencies
     require 'jquery-rails'
     require 'jquery-ui-rails'
@@ -9,10 +9,10 @@ module Phcnotifi
     require 'font-awesome-rails'
     require 'country_select'
     require 'gravtastic'
-    
+
     # Isolate Namespace
     isolate_namespace Phcnotifi
-    
+
     # Testing Generator
     config.generators do |g|
       g.test_framework :rspec,
@@ -24,11 +24,11 @@ module Phcnotifi
         request_specs: false
       g.fixture_replacement :factory_girl, dir: "spec/factories"
     end
-    
+
     # Load Requried Helper Files
     config.to_prepare do
       Phcnotifi::ApplicationController.helper(ApplicationHelper)
     end
-  
+
   end
 end
