@@ -4,8 +4,8 @@
 [![Gem Version](https://badge.fury.io/rb/phcnotifi.svg)](https://badge.fury.io/rb/phcnotifi)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/PHCNetworks/phc-notifi/blob/master/MIT-LICENSE)  
 
-### PHC-Notifi(4) (Form Validation & Notification Engine) Documentation
-PHCNotifi(4) rails engine with helpers for alerts and form validation notifications.  
+### PHC-Notifi(5) (Form Validation & Notification Engine) Documentation
+PHCNotifi(5) rails engine with helpers for alerts and form validation notifications.  
 
 * Add alert and form validation helpers to any project.
 * Setup in seconds with only one line of code in the application_helper file.
@@ -13,7 +13,7 @@ PHCNotifi(4) rails engine with helpers for alerts and form validation notificati
 
 #### Step 1 - Add PHCNotifi to your gemfile  
 
-	gem 'phcnotifi', '~> 4.0'
+	gem 'phcnotifi', '~> 5.0'
 	bundle install
 
 #### Step 2 - Load Helpers in the Application's Controller  
