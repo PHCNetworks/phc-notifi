@@ -27,13 +27,13 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'jquery-rails', '~> 4.3', '>= 4.3.1'
   spec.add_dependency 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
   spec.add_dependency 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
-  spec.add_dependency 'font-awesome-rails'
+  spec.add_dependency 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
   spec.add_dependency 'sass-rails', '~> 5.0', '>= 5.0.6'
 
   # Development & Testing Dependencies
   spec.add_development_dependency 'rspec-rails', '~> 3.5', '>= 3.5.2'
   spec.add_development_dependency 'factory_girl_rails', '~> 4.8'
-  spec.add_development_dependency 'capybara', '~> 2.13'
+  spec.add_development_dependency 'capybara', '~> 2.14'
   spec.add_development_dependency 'byebug', '~> 9.0', '>= 9.0.6'
 
   spec.add_development_dependency 'sqlite3', '~> 1.3', '>= 1.3.13'
