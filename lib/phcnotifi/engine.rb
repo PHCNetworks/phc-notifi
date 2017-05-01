@@ -4,11 +4,9 @@ module Phcnotifi
     # UI & Frontend Dependencies
     require 'jquery-rails'
     require 'jquery-ui-rails'
-    require 'sass-rails'
     require 'bootstrap-sass'
     require 'font-awesome-rails'
-    require 'country_select'
-    require 'gravtastic'
+    require 'sass-rails'
 
     # Isolate Namespace
     isolate_namespace Phcnotifi

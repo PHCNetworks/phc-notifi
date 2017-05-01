@@ -19,30 +19,28 @@ Gem::Specification.new do |spec|
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   # Main Dependencies
-  spec.add_dependency 'rails'
-  spec.add_dependency 'pg'
-  spec.add_dependency 'paper_trail'
+  spec.add_dependency 'rails', '~> 5.1'
+  spec.add_dependency 'pg', '~> 0.20.0'
+  spec.add_dependency 'paper_trail', '~> 7.0', '>= 7.0.2'
 
   # UI & Frontend Dependencies
-  spec.add_dependency 'jquery-rails'
-  spec.add_dependency 'jquery-ui-rails'
-  spec.add_dependency 'bootstrap-sass'
+  spec.add_dependency 'jquery-rails', '~> 4.3', '>= 4.3.1'
+  spec.add_dependency 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
+  spec.add_dependency 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
   spec.add_dependency 'font-awesome-rails'
-  spec.add_dependency 'sass-rails'
-  spec.add_dependency 'country_select'
-  spec.add_dependency 'gravtastic'
+  spec.add_dependency 'sass-rails', '~> 5.0', '>= 5.0.6'
 
   # Development & Testing Dependencies
-  spec.add_development_dependency 'rspec-rails'
-  spec.add_development_dependency 'factory_girl_rails'
-  spec.add_development_dependency 'capybara'
-  spec.add_development_dependency 'byebug'
+  spec.add_development_dependency 'rspec-rails', '~> 3.5', '>= 3.5.2'
+  spec.add_development_dependency 'factory_girl_rails', '~> 4.8'
+  spec.add_development_dependency 'capybara', '~> 2.13'
+  spec.add_development_dependency 'byebug', '~> 9.0', '>= 9.0.6'
 
-  spec.add_development_dependency 'sqlite3'
-  spec.add_development_dependency 'database_cleaner'
+  spec.add_development_dependency 'sqlite3', '~> 1.3', '>= 1.3.13'
+  spec.add_development_dependency 'database_cleaner', '~> 1.5', '>= 1.5.3'
 
-  spec.add_development_dependency 'faker'
-  spec.add_development_dependency 'launchy'
-  spec.add_development_dependency 'selenium-webdriver'
+  spec.add_development_dependency 'faker', '~> 1.7', '>= 1.7.3'
+  spec.add_development_dependency 'launchy', '~> 2.4', '>= 2.4.3'
+  spec.add_development_dependency 'selenium-webdriver', '~> 3.4'
 
 end
