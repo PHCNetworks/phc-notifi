@@ -11,8 +11,8 @@ Gem::Specification.new do |spec|
   spec.authors     = ["BradPotts"]
   spec.email       = ["info@phcnetworks.net"]
   spec.homepage    = "https://phcnetworks.net/"
-  spec.summary     = "PHCNotifi(5Beta) Rails Notification Engine"
-  spec.description = "PHCNotifi(5Beta) rails engine with helpers for alerts and form validation notifications."
+  spec.summary     = "PHCNotifi(5) Rails 5.1 Notification Engine"
+  spec.description = "PHCNotifi(5) Rails 5.1 Engine with helpers for alerts and form validation notifications."
   spec.license     = "MIT"
 
   #Load Engine Files
@@ -31,13 +31,13 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'sass-rails', '~> 5.0', '>= 5.0.6'
 
   # Development & Testing Dependencies
-  spec.add_development_dependency 'rspec-rails', '~> 3.5', '>= 3.5.2'
+  spec.add_development_dependency 'rspec-rails', '~> 3.6'
   spec.add_development_dependency 'factory_girl_rails', '~> 4.8'
   spec.add_development_dependency 'capybara', '~> 2.14'
   spec.add_development_dependency 'byebug', '~> 9.0', '>= 9.0.6'
 
   spec.add_development_dependency 'sqlite3', '~> 1.3', '>= 1.3.13'
-  spec.add_development_dependency 'database_cleaner', '~> 1.5', '>= 1.5.3'
+  spec.add_development_dependency 'database_cleaner', '~> 1.6'
 
   spec.add_development_dependency 'faker', '~> 1.7', '>= 1.7.3'
   spec.add_development_dependency 'launchy', '~> 2.4', '>= 2.4.3'
