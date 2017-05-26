@@ -7,6 +7,7 @@ module Phcnotifi
     require 'bootstrap-sass'
     require 'font-awesome-rails'
     require 'sass-rails'
+    require 'webpacker'
 
     # Isolate Namespace
     isolate_namespace Phcnotifi
