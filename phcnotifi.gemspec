@@ -11,8 +11,8 @@ Gem::Specification.new do |spec|
   spec.authors     = ["BradPotts"]
   spec.email       = ["info@phcnetworks.net"]
   spec.homepage    = "https://phcnetworks.net/"
-  spec.summary     = "Rails 5.1 Engine - PHCNotifi(6)"
-  spec.description = "PHCNotifi(5) Rails 5.1 engine with helpers for alerts and form validation notifications."
+  spec.summary     = "Rails 5.1 Engine - PHCNotifi"
+  spec.description = "PHCNotifi Rails 5.1 engine with helpers for alerts and form validation notifications."
   spec.license     = "MIT"
 
   #Load Engine Files
@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   # Main Dependencies
   spec.add_dependency 'rails', '~> 5.1', '>= 5.1.1'
   spec.add_dependency 'pg', '~> 0.20.0'
-  spec.add_dependency 'paper_trail', '~> 7.0', '>= 7.0.2'
+  spec.add_dependency 'paper_trail', '~> 7.0', '>= 7.0.3'
 
   # UI & Frontend Dependencies
   spec.add_dependency 'jquery-rails', '~> 4.3', '>= 4.3.1'
