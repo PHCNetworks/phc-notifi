@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   # Main Dependencies
   spec.add_dependency 'rails', '~> 5.1', '>= 5.1.1'
-  spec.add_dependency 'pg', '~> 0.20.0'
+  spec.add_dependency 'pg', '~> 0.21.0'
   spec.add_dependency 'paper_trail', '~> 7.0', '>= 7.0.3'
 
   # UI & Frontend Dependencies
@@ -34,7 +34,7 @@ Gem::Specification.new do |spec|
   # Development & Testing Dependencies
   spec.add_development_dependency 'rspec-rails', '~> 3.6'
   spec.add_development_dependency 'factory_girl_rails', '~> 4.8'
-  spec.add_development_dependency 'capybara', '~> 2.14'
+  spec.add_development_dependency 'capybara', '~> 2.14', '>= 2.14.3'
   spec.add_development_dependency 'nokogiri', '~> 1.8'
 
   spec.add_development_dependency 'byebug', '~> 9.0', '>= 9.0.6'
@@ -43,7 +43,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'faker', '~> 1.7', '>= 1.7.3'
   spec.add_development_dependency 'launchy', '~> 2.4', '>= 2.4.3'
-  spec.add_development_dependency 'selenium-webdriver', '~> 3.4'
+  spec.add_development_dependency 'selenium-webdriver', '~> 3.4', '>= 3.4.3'
 
   # Temporary Security Fix
   spec.add_development_dependency 'mail', '~> 2.7.0.rc1'
