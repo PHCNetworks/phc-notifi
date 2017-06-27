@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   # Main Dependencies
-  spec.add_dependency 'rails', '~> 5.1', '>= 5.1.1'
+  spec.add_dependency 'rails', '~> 5.1', '>= 5.1.2'
   spec.add_dependency 'pg', '~> 0.21.0'
   spec.add_dependency 'paper_trail', '~> 7.0', '>= 7.0.3'
 
@@ -44,8 +44,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'faker', '~> 1.7', '>= 1.7.3'
   spec.add_development_dependency 'launchy', '~> 2.4', '>= 2.4.3'
   spec.add_development_dependency 'selenium-webdriver', '~> 3.4', '>= 3.4.3'
-
-  # Temporary Security Fix
-  spec.add_development_dependency 'mail', '~> 2.7.0.rc1'
 
 end
