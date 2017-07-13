@@ -41,8 +41,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'sqlite3', '~> 1.3', '>= 1.3.13'
   spec.add_development_dependency 'database_cleaner', '~> 1.6', '>= 1.6.1'
 
-  spec.add_development_dependency 'faker', '~> 1.8', '>= 1.8.3'
+  spec.add_development_dependency 'faker', '~> 1.8', '>= 1.8.4'
   spec.add_development_dependency 'launchy', '~> 2.4', '>= 2.4.3'
-  spec.add_development_dependency 'selenium-webdriver', '~> 3.4', '>= 3.4.3'
+  spec.add_development_dependency 'selenium-webdriver', '~> 3.4', '>= 3.4.4'
 
 end
