@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   # Main Dependencies
-  spec.add_dependency 'paper_trail', '~> 7.1'
+  spec.add_dependency 'paper_trail', '~> 7.1', '>= 7.1.1'
   spec.add_dependency 'pg', '~> 0.21.0'
   spec.add_dependency 'rails', '~> 5.1', '>= 5.1.3'
 
@@ -32,7 +32,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'webpacker', '~> 2.0'
 
   # Development & Testing Dependencies
-  spec.add_development_dependency 'byebug', '~> 9.0', '>= 9.0.6'
+  spec.add_development_dependency 'byebug', '~> 9.1'
   spec.add_development_dependency 'capybara', '~> 2.15', '>= 2.15.1'
   spec.add_development_dependency 'database_cleaner', '~> 1.6', '>= 1.6.1'
 
@@ -40,8 +40,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'faker', '~> 1.8', '>= 1.8.4'
   spec.add_development_dependency 'launchy', '~> 2.4', '>= 2.4.3'
 
-  spec.add_development_dependency 'rspec-rails', '~> 3.6'
-  spec.add_development_dependency 'selenium-webdriver', '~> 3.4', '>= 3.4.4'
+  spec.add_development_dependency 'rspec-rails', '~> 3.6', '>= 3.6.1'
+  spec.add_development_dependency 'selenium-webdriver', '~> 3.5', '>= 3.5.1'
   spec.add_development_dependency 'sqlite3', '~> 1.3', '>= 1.3.13'
 
   spec.add_development_dependency 'nokogiri', '~> 1.8'
