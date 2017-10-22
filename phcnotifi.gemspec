@@ -36,11 +36,11 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'capybara', '~> 2.15', '>= 2.15.4'
   spec.add_development_dependency 'database_cleaner', '~> 1.6', '>= 1.6.1'
 
-  spec.add_development_dependency 'factory_girl_rails', '~> 4.8'
+  spec.add_development_dependency 'factory_bot_rails', '~> 4.8', '>= 4.8.2'
   spec.add_development_dependency 'faker', '~> 1.8', '>= 1.8.4'
   spec.add_development_dependency 'launchy', '~> 2.4', '>= 2.4.3'
 
-  spec.add_development_dependency 'rspec-rails', '~> 3.6', '>= 3.6.1'
+  spec.add_development_dependency 'rspec-rails', '~> 3.7', '>= 3.7.1'
   spec.add_development_dependency 'selenium-webdriver', '~> 3.6'
   spec.add_development_dependency 'sqlite3', '~> 1.3', '>= 1.3.13'
 
