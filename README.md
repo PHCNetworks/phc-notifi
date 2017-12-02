@@ -13,7 +13,7 @@ PHCNotifi Rails 5.1 engine with helpers for alerts and form validation notificat
 
 #### Step 1 - Add PHCNotifi to your gemfile  
 
-	gem 'phcnotifi', '~> 12.0'
+	gem 'phcnotifi', '~> 13.0'
 	bundle install
 
 #### Step 2 - Load Helpers in the Application's Controller  
