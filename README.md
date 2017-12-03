@@ -2,7 +2,6 @@
 [![Code Climate](https://codeclimate.com/github/PHCNetworks/phc-notifi/badges/gpa.svg)](https://codeclimate.com/github/PHCNetworks/phc-notifi)
 [![Gem Version](https://badge.fury.io/rb/phcnotifi.svg)](https://badge.fury.io/rb/phcnotifi)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/PHCNetworks/phc-notifi/blob/master/MIT-LICENSE)
-[![Requirements Status](https://requires.io/github/PHCNetworks/phc-notifi/requirements.svg?branch=master)](https://requires.io/github/PHCNetworks/phc-notifi/requirements/?branch=master)
 
 ### PHC-Notifi for Rails 5.1 (Form Validation & Notification Engine) Documentation
 PHCNotifi Rails 5.1 engine with helpers for alerts and form validation notifications.  
