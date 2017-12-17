@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   # Main Dependencies
-  spec.add_dependency 'paper_trail', '~> 8.1'
+  spec.add_dependency 'paper_trail', '~> 8.1', '>= 8.1.1'
   spec.add_dependency 'pg', '~> 0.21.0'
   spec.add_dependency 'rails', '~> 5.1', '>= 5.1.4'
 
@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'jquery-rails', '~> 4.3', '>= 4.3.1'
   spec.add_dependency 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
   spec.add_dependency 'sass-rails', '~> 5.0', '>= 5.0.7'
-  spec.add_dependency 'webpacker', '~> 3.0', '>= 3.0.2'
+  spec.add_dependency 'webpacker', '~> 3.2'
 
   # Development & Testing Dependencies
   spec.add_development_dependency 'byebug', '~> 9.1'
@@ -37,7 +37,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'database_cleaner', '~> 1.6', '>= 1.6.2'
 
   spec.add_development_dependency 'factory_bot_rails', '~> 4.8', '>= 4.8.2'
-  spec.add_development_dependency 'faker', '~> 1.8', '>= 1.8.4'
+  spec.add_development_dependency 'faker', '~> 1.8', '>= 1.8.5'
   spec.add_development_dependency 'launchy', '~> 2.4', '>= 2.4.3'
 
   spec.add_development_dependency 'rspec-rails', '~> 3.7', '>= 3.7.2'
