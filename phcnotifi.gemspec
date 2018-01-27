@@ -30,7 +30,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'webpacker', '~> 3.2'
 
   # Development & Testing Dependencies
-  spec.add_development_dependency 'byebug', '~> 9.1'
+  spec.add_development_dependency 'byebug', '~> 10.0'
   spec.add_development_dependency 'capybara', '~> 2.17'
   spec.add_development_dependency 'database_cleaner', '~> 1.6'
 
