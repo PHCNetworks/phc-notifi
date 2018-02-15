@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   # Main Dependencies
   spec.add_dependency 'paper_trail', '~> 8.1'
   spec.add_dependency 'pg', '~> 0.21.0'
-  spec.add_dependency 'rails', '~> 5.1'
+  spec.add_dependency 'rails', '~> 5.1', '>= 5.1.5'
 
   # UI & Frontend Dependencies
   spec.add_dependency 'jquery-rails', '~> 4.3'
@@ -31,7 +31,7 @@ Gem::Specification.new do |spec|
 
   # Development & Testing Dependencies
   spec.add_development_dependency 'byebug', '~> 10.0'
-  spec.add_development_dependency 'capybara', '~> 2.17'
+  spec.add_development_dependency 'capybara', '~> 2.18'
   spec.add_development_dependency 'database_cleaner', '~> 1.6'
 
   spec.add_development_dependency 'factory_bot_rails', '~> 4.8'
