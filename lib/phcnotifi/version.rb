@@ -1,3 +1,3 @@
 module Phcnotifi
-  VERSION = "19.0.0"
+  VERSION = "20.0.0"
 end
