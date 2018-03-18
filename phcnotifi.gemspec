@@ -39,7 +39,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'launchy', '~> 2.4'
 
   spec.add_development_dependency 'rspec-rails', '~> 3.7'
-  spec.add_development_dependency 'selenium-webdriver', '~> 3.10'
+  spec.add_development_dependency 'selenium-webdriver', '~> 3.11'
   spec.add_development_dependency 'sqlite3', '~> 1.3'
 
   spec.add_development_dependency 'nokogiri', '~> 1.8'
@@ -48,6 +48,6 @@ Gem::Specification.new do |spec|
   # Extra Development & Testing Dependencies
   spec.add_development_dependency 'letter_opener', '~> 1.6'
   spec.add_development_dependency 'shoulda-matchers', '~> 3.1'
-  spec.add_development_dependency 'simplecov', '~> 0.15.1'
+  spec.add_development_dependency 'simplecov', '~> 0.16.1'
 
 end
