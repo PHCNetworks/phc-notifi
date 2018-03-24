@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    phcnotifi (20.1.1)
+    phcnotifi (21.0.0)
       jquery-rails (~> 4.3)
       jquery-ui-rails (~> 6.0)
       paper_trail (~> 8.1)
