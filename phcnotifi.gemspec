@@ -11,8 +11,8 @@ Gem::Specification.new do |spec|
   spec.authors     = ["BradPotts"]
   spec.email       = ["info@phcnetworks.net"]
   spec.homepage    = "https://phcnetworks.net/"
-  spec.summary     = "Rails 5.1 Engine - PHCNotifi"
-  spec.description = "PHCNotifi Rails 5.1 engine with helpers for alerts and form validation notifications."
+  spec.summary     = "Rails 5.2 Engine - PHCNotifi"
+  spec.description = "PHCNotifi Rails engine with helpers for alerts and form validation notifications."
   spec.license     = "MIT"
 
   #Load Engine Files
