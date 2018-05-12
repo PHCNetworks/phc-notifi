@@ -27,11 +27,11 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'jquery-rails', '~> 4.3'
   spec.add_dependency 'jquery-ui-rails', '~> 6.0'
   spec.add_dependency 'sass-rails', '~> 5.0'
-  spec.add_dependency 'webpacker', '~> 3.4'
+  spec.add_dependency 'webpacker', '~> 3.5'
 
   # Development & Testing Dependencies
   spec.add_development_dependency 'byebug', '~> 10.0'
-  spec.add_development_dependency 'capybara', '~> 3.0'
+  spec.add_development_dependency 'capybara', '~> 3.1'
   spec.add_development_dependency 'database_cleaner', '~> 1.7'
 
   spec.add_development_dependency 'factory_bot_rails', '~> 4.8'
@@ -39,7 +39,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'launchy', '~> 2.4'
 
   spec.add_development_dependency 'rspec-rails', '~> 3.7'
-  spec.add_development_dependency 'selenium-webdriver', '~> 3.11'
+  spec.add_development_dependency 'selenium-webdriver', '~> 3.12'
   spec.add_development_dependency 'sqlite3', '~> 1.3'
 
   spec.add_development_dependency 'nokogiri', '~> 1.8'
