@@ -1,5 +1,5 @@
 module Phcnotifi
-	module ApplicationHelper
+  module ApplicationHelper
 
 		# Bootstrap Notification System
 		def flash_class(level)

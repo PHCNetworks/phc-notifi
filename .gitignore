@@ -1,62 +1,11 @@
-# Rubymine Projects
-.idea/
-
-# IDE File Extensions
-.project
-
-# Test and Misc Files
-*.rbc
-capybara-*.html
-.rspec
-/public/system
-/coverage/
-/spec/tmp
-**.orig
-rerun.txt
-pickle-email-*.html
-spec/testapp/log/*.log
-spec/testapp/tmp/
+.bundle/
+log/*.log
 pkg/
-rerun.txt
 
-# Ignore Bundler Config
-/.bundle
-
-# Ignore Default SQLite Database and Schema.
-/db/*.sqlite3
-/db/*.sqlite3-journal
-/db/schema.rb
-
-# Configs
-/config/database.yml
-
-# Ignore all Logfiles and Tempfiles.
-/log/*.log
-!/log/.keep
-/tmp
-.byebug_history
-
-# Ignore RVM Files
-.rvmrc
-
-# Bower Rails
-/vendor/assets/bower_components
-*.bowerrc
-bower.json
-
-# Ignore pow Environment Settings
-.powenv
-
-# If using bower-rails ignore default bower_components path bower.json file
-/vendor/assets/bower_components
-*.bowerrc
-bower.json
-
-# Ignore Generated Gem Files
-*.gem
-
-# Ignore node_modules
-node_modules/
-
-# Ignore Various OS Files (Dev Environments)
-.DS_Store
+spec/test_app/db/*.sqlite3
+spec/test_app/db/*.sqlite3-journal
+spec/test_app/log/*.log
+spec/test_app/node_modules/
+spec/test_app/yarn-error.log
+spec/test_app/storage/
+spec/test_app/tmp/

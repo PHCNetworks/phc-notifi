@@ -1,7 +1,7 @@
 module Phcnotifi
   class ApplicationController < ActionController::Base
 
-    # Security Filters
+    # Security
     protect_from_forgery with: :exception
 
   end
