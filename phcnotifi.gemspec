@@ -18,26 +18,26 @@ Gem::Specification.new do |phc_gem_spec|
   phc_gem_spec.add_dependency "rails", "~> 5.2", ">= 5.2.0"
 
   # Admin Panel Theme Dependencies
-  phc_gem_spec.add_dependency "phcadmin1", "~> 26.1"
-  phc_gem_spec.add_dependency "phcadmin2", "~> 26.1"
-  phc_gem_spec.add_dependency "phcadmin3", "~> 21.1"
-  phc_gem_spec.add_dependency "phcadmin4", "~> 3.1"
-  phc_gem_spec.add_dependency "phcadmin5", "~> 3.1"
+  phc_gem_spec.add_dependency "phcadmin1", "~> 26.2"
+  phc_gem_spec.add_dependency "phcadmin2", "~> 26.2"
+  phc_gem_spec.add_dependency "phcadmin3", "~> 21.2"
+  phc_gem_spec.add_dependency "phcadmin4", "~> 3.2"
+  phc_gem_spec.add_dependency "phcadmin5", "~> 3.2"
 
   # Website Theme Dependencies
-  phc_gem_spec.add_dependency "phctheme1", "~> 32.1"
-  phc_gem_spec.add_dependency "phctheme2", "~> 21.1"
-  phc_gem_spec.add_dependency "phctheme3", "~> 1.0"
+  phc_gem_spec.add_dependency "phctheme1", "~> 32.2"
+  phc_gem_spec.add_dependency "phctheme2", "~> 21.2"
+  phc_gem_spec.add_dependency "phctheme3", "~> 2.0"
 
   # Development Dependencies
   phc_gem_spec.add_development_dependency "rspec-rails", "~> 3.7"
   phc_gem_spec.add_development_dependency "byebug", "~> 10.0"
   phc_gem_spec.add_development_dependency "capybara", "~> 3.2"
 
-  phc_gem_spec.add_development_dependency 'factory_bot_rails', '~> 4.10'
-  phc_gem_spec.add_development_dependency 'faker', '~> 1.8'
-  phc_gem_spec.add_development_dependency 'launchy', '~> 2.4'
+  phc_gem_spec.add_development_dependency "factory_bot_rails", "~> 4.10"
+  phc_gem_spec.add_development_dependency "faker", "~> 1.8"
+  phc_gem_spec.add_development_dependency "launchy", "~> 2.4"
 
-  phc_gem_spec.add_development_dependency 'sqlite3', '~> 1.3'
+  phc_gem_spec.add_development_dependency "sqlite3", "~> 1.3"
 
 end
