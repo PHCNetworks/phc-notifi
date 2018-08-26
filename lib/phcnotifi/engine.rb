@@ -4,6 +4,7 @@ module Phcnotifi
     # PHCThemes
     require 'phctheme1'
     require 'phctheme2'
+    require 'phctheme3'
 
     require 'phcadmin1'
     require 'phcadmin2'
