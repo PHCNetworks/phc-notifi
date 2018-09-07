@@ -19,20 +19,20 @@ Gem::Specification.new do |phc_gem_spec|
   phc_gem_spec.add_dependency 'rails', '~> 5.2', '>= 5.2.1'
 
   # Admin Panel Theme Dependencies
-  phc_gem_spec.add_dependency 'phcadmin1', '~> 30.0'
-  phc_gem_spec.add_dependency 'phcadmin2', '~> 30.0'
-  phc_gem_spec.add_dependency 'phcadmin3', '~> 25.0'
-  phc_gem_spec.add_dependency 'phcadmin4', '~> 7.0'
-  phc_gem_spec.add_dependency 'phcadmin5', '~> 7.0'
+  phc_gem_spec.add_dependency 'phcadmin1', '~> 32.0'
+  phc_gem_spec.add_dependency 'phcadmin2', '~> 32.0'
+  phc_gem_spec.add_dependency 'phcadmin3', '~> 27.0'
+  phc_gem_spec.add_dependency 'phcadmin4', '~> 8.0'
+  phc_gem_spec.add_dependency 'phcadmin5', '~> 9.0'
 
   # Website Theme Dependencies
-  phc_gem_spec.add_dependency 'phctheme1', '~> 36.0'
-  phc_gem_spec.add_dependency 'phctheme2', '~> 25.0'
-  phc_gem_spec.add_dependency 'phctheme3', '~> 6.0'
+  phc_gem_spec.add_dependency 'phctheme1', '~> 37.0'
+  phc_gem_spec.add_dependency 'phctheme2', '~> 27.0'
+  phc_gem_spec.add_dependency 'phctheme3', '~> 7.0'
 
   # Development Dependencies
   phc_gem_spec.add_development_dependency 'byebug', '~> 10.0'
-  phc_gem_spec.add_development_dependency 'capybara', '~> 3.6'
+  phc_gem_spec.add_development_dependency 'capybara', '~> 3.7'
   phc_gem_spec.add_development_dependency 'minitest', '~> 5.11'
   phc_gem_spec.add_development_dependency 'rspec-rails', '~> 3.8'
 
