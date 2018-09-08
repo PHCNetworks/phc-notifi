@@ -19,16 +19,18 @@ Gem::Specification.new do |phc_gem_spec|
   phc_gem_spec.add_dependency 'rails', '~> 5.2', '>= 5.2.1'
 
   # Admin Panel Theme Dependencies
-  phc_gem_spec.add_dependency 'phcadmin1', '~> 32.0'
-  phc_gem_spec.add_dependency 'phcadmin2', '~> 32.0'
-  phc_gem_spec.add_dependency 'phcadmin3', '~> 27.0'
-  phc_gem_spec.add_dependency 'phcadmin4', '~> 8.0'
-  phc_gem_spec.add_dependency 'phcadmin5', '~> 9.0'
+  phc_gem_spec.add_dependency 'phcadmin1', '~> 33.0'
+  phc_gem_spec.add_dependency 'phcadmin2', '~> 33.0'
+  phc_gem_spec.add_dependency 'phcadmin3', '~> 28.0'
+  phc_gem_spec.add_dependency 'phcadmin4', '~> 9.0'
+  phc_gem_spec.add_dependency 'phcadmin5', '~> 10.0'
 
   # Website Theme Dependencies
-  phc_gem_spec.add_dependency 'phctheme1', '~> 37.0'
-  phc_gem_spec.add_dependency 'phctheme2', '~> 27.0'
-  phc_gem_spec.add_dependency 'phctheme3', '~> 7.0'
+  phc_gem_spec.add_dependency 'phctheme1', '~> 38.0'
+  phc_gem_spec.add_dependency 'phctheme2', '~> 28.0'
+  phc_gem_spec.add_dependency 'phctheme3', '~> 8.0'
+  phc_gem_spec.add_dependency 'phctheme4', '~> 5.0'
+  phc_gem_spec.add_dependency 'phctheme5', '~> 2.0'
 
   # Development Dependencies
   phc_gem_spec.add_development_dependency 'byebug', '~> 10.0'
