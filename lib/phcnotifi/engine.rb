@@ -29,11 +29,5 @@ module Phcnotifi
       g.fixture_replacement :factory_bot, dir: "spec/factories"
     end
 
-    # Load Requried Helper Files
-    config.to_prepare do
-      Phcnotifi::ApplicationController.helper(ApplicationHelper)
-      Phctitleseo::ApplicationController.helper(ApplicationHelper)
-    end
-
   end
 end
