@@ -1,2 +1,2 @@
-// Load PHCAdmin3 JavaScripts
-//= require phc_admins_main_three
+// Load Admin Theme
+//= require phc_admin_theme_scripts_four
