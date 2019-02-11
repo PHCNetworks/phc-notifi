@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    phcnotifi (38.0.0)
+    phcnotifi (39.0.0)
       phcadmin1 (~> 42.0)
       phcadmin2 (~> 42.0)
       phcadmin3 (~> 38.0)
@@ -115,7 +115,7 @@ GEM
     ffi (1.9.25)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
-    google-api-client (0.28.3)
+    google-api-client (0.28.4)
       addressable (~> 2.5, >= 2.5.1)
       googleauth (>= 0.5, < 0.10.0)
       httpclient (>= 2.8.1, < 3.0)
@@ -428,7 +428,7 @@ DEPENDENCIES
   minitest (~> 5.11)
   phcnotifi!
   rspec-rails (~> 3.8)
-  sqlite3 (~> 1.4)
+  sqlite3 (~> 1.3, >= 1.3.13)
 
 BUNDLED WITH
    1.17.3
