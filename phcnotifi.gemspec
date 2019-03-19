@@ -19,21 +19,21 @@ Gem::Specification.new do |phc_gem_spec|
   phc_gem_spec.add_dependency 'rails', '~> 5.2', '>= 5.2.2.1'
 
   # Admin Panel Theme Dependencies
-  phc_gem_spec.add_dependency 'phcadmin1', '~> 44.1'
-  phc_gem_spec.add_dependency 'phcadmin2', '~> 46.1'
-  phc_gem_spec.add_dependency 'phcadmin3', '~> 40.1'
-  phc_gem_spec.add_dependency 'phcadmin4', '~> 21.1'
-  phc_gem_spec.add_dependency 'phcadmin5', '~> 21.1'
-  phc_gem_spec.add_dependency 'phcadmin6', '~> 9.1'
-  phc_gem_spec.add_dependency 'phcadmin7', '~> 3.1'
+  phc_gem_spec.add_dependency 'phcadmin1', '~> 46.0'
+  phc_gem_spec.add_dependency 'phcadmin2', '~> 48.0'
+  phc_gem_spec.add_dependency 'phcadmin3', '~> 41.0'
+  phc_gem_spec.add_dependency 'phcadmin4', '~> 23.0'
+  phc_gem_spec.add_dependency 'phcadmin5', '~> 22.0'
+  phc_gem_spec.add_dependency 'phcadmin6', '~> 11.0'
+  phc_gem_spec.add_dependency 'phcadmin7', '~> 5.0'
 
   # Website Theme Dependencies
-  phc_gem_spec.add_dependency 'phctheme1', '~> 50.1'
-  phc_gem_spec.add_dependency 'phctheme2', '~> 39.1'
-  phc_gem_spec.add_dependency 'phctheme3', '~> 18.1'
-  phc_gem_spec.add_dependency 'phctheme4', '~> 16.1'
-  phc_gem_spec.add_dependency 'phctheme5', '~> 12.1'
-  phc_gem_spec.add_dependency 'phctheme6', '~> 5.1'
+  phc_gem_spec.add_dependency 'phctheme1', '~> 51.0'
+  phc_gem_spec.add_dependency 'phctheme2', '~> 40.0'
+  phc_gem_spec.add_dependency 'phctheme3', '~> 20.0'
+  phc_gem_spec.add_dependency 'phctheme4', '~> 17.0'
+  phc_gem_spec.add_dependency 'phctheme5', '~> 13.0'
+  phc_gem_spec.add_dependency 'phctheme6', '~> 6.0'
 
   # Development Dependencies
   phc_gem_spec.add_development_dependency 'sqlite3', '~> 1.3', '< 1.4'
