@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    phcnotifi (44.0.0)
+    phcnotifi (44.1.0)
       phcadmin1 (~> 48.0)
       phcadmin2 (~> 50.0)
       phcadmin3 (~> 43.0)
@@ -16,7 +16,7 @@ PATH
       phctheme5 (~> 15.0)
       phctheme6 (~> 8.0)
       phctheme7 (~> 2.0)
-      rails (~> 5.2, >= 5.2.2.1)
+      rails (~> 5.2, >= 5.2.3)
 
 GEM
   remote: https://rubygems.org/

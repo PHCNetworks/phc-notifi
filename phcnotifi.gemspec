@@ -16,7 +16,7 @@ Gem::Specification.new do |phc_gem_spec|
   phc_gem_spec.files = Dir["{app,config,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   # Main Dependencies
-  phc_gem_spec.add_dependency 'rails', '~> 5.2', '>= 5.2.2.1'
+  phc_gem_spec.add_dependency 'rails', '~> 5.2', '>= 5.2.3'
 
   # Admin Panel Theme Dependencies
   phc_gem_spec.add_dependency 'phcadmin1', '~> 48.0'
