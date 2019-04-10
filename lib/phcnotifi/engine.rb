@@ -5,14 +5,19 @@ module Phcnotifi
     require 'phctheme1'
     require 'phctheme2'
     require 'phctheme3'
-    require 'phctheme3'
-    require 'phctheme3'
+    require 'phctheme4'
+    require 'phctheme5'
+    require 'phctheme6'
+    require 'phctheme7'
 
+    # PHCAdmin Dependencies
     require 'phcadmin1'
     require 'phcadmin2'
     require 'phcadmin3'
     require 'phcadmin4'
     require 'phcadmin5'
+    require 'phcadmin6'
+    require 'phcadmin7'
 
     # Isolate Namespace
     isolate_namespace Phcnotifi
