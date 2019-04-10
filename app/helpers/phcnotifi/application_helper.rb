@@ -1,7 +1,7 @@
 module Phcnotifi
-  module ApplicationHelper
-
-		# Bootstrap Notification System
+	module ApplicationHelper
+	
+		# PHCNotifi - Bootstrap Notifications for Rails
 		def flash_class(level)
 			case level.to_sym
 				when :notice then "alert alert-info"
@@ -10,6 +10,6 @@ module Phcnotifi
 				when :alert then "alert alert-warning"
 			end
 		end
-
+	
 	end
 end
