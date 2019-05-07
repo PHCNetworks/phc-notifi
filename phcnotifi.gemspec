@@ -18,28 +18,28 @@ Gem::Specification.new do |phc_gem_spec|
   # Main Dependencies
   phc_gem_spec.add_dependency 'rails', '~> 5.2', '>= 5.2.3'
 
- # Admin Panel Theme Dependencies
-  phc_gem_spec.add_dependency 'phcadmin1', '~> 48.3'
-  phc_gem_spec.add_dependency 'phcadmin2', '~> 50.3'
-  phc_gem_spec.add_dependency 'phcadmin3', '~> 43.3'
-  phc_gem_spec.add_dependency 'phcadmin4', '~> 25.3'
-  phc_gem_spec.add_dependency 'phcadmin5', '~> 24.3'
-  phc_gem_spec.add_dependency 'phcadmin6', '~> 13.3'
-  phc_gem_spec.add_dependency 'phcadmin7', '~> 7.3'
+  # Admin Panel Theme Dependencies
+  phc_gem_spec.add_dependency 'phcadmin1', '~> 49.0'
+  phc_gem_spec.add_dependency 'phcadmin2', '~> 51.0'
+  phc_gem_spec.add_dependency 'phcadmin3', '~> 44.0'
+  phc_gem_spec.add_dependency 'phcadmin4', '~> 26.0'
+  phc_gem_spec.add_dependency 'phcadmin5', '~> 25.0'
+  phc_gem_spec.add_dependency 'phcadmin6', '~> 14.0'
+  phc_gem_spec.add_dependency 'phcadmin7', '~> 8.0'
 
   # Website Theme Dependencies
-  phc_gem_spec.add_dependency 'phctheme1', '~> 53.3'
-  phc_gem_spec.add_dependency 'phctheme2', '~> 42.3'
-  phc_gem_spec.add_dependency 'phctheme3', '~> 22.3'
-  phc_gem_spec.add_dependency 'phctheme4', '~> 19.3'
-  phc_gem_spec.add_dependency 'phctheme5', '~> 15.3'
-  phc_gem_spec.add_dependency 'phctheme6', '~> 8.3'
-  phc_gem_spec.add_dependency 'phctheme7', '~> 2.3'
+  phc_gem_spec.add_dependency 'phctheme1', '~> 54.0'
+  phc_gem_spec.add_dependency 'phctheme2', '~> 43.0'
+  phc_gem_spec.add_dependency 'phctheme3', '~> 23.0'
+  phc_gem_spec.add_dependency 'phctheme4', '~> 20.0'
+  phc_gem_spec.add_dependency 'phctheme5', '~> 16.0'
+  phc_gem_spec.add_dependency 'phctheme6', '~> 9.0'
+  phc_gem_spec.add_dependency 'phctheme7', '~> 3.0'
 
   # Development Dependencies
   phc_gem_spec.add_development_dependency 'sqlite3', '~> 1.3', '< 1.4'
   phc_gem_spec.add_development_dependency 'byebug', '~> 11.0'
-  phc_gem_spec.add_development_dependency 'capybara', '~> 3.16'
+  phc_gem_spec.add_development_dependency 'capybara', '~> 3.18'
   phc_gem_spec.add_development_dependency 'minitest', '~> 5.11'
   phc_gem_spec.add_development_dependency 'rspec-rails', '~> 3.8'
 
