@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    phcnotifi (47.0.0)
+    phcnotifi (47.1.0)
       phcadmin1 (~> 49.0)
       phcadmin2 (~> 51.0)
       phcadmin3 (~> 44.0)
