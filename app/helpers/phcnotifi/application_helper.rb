@@ -2,12 +2,18 @@ module Phcnotifi
 	module ApplicationHelper
 	
 		# PHCNotifi - Bootstrap Notifications for Rails
-		def flash_class(level)
-			case level.to_sym
-				when :notice then "alert alert-info"
-				when :success then "alert alert-success"
-				when :error then "alert alert-danger"
-				when :alert then "alert alert-warning"
+		def bootstrap_class_for_flash(flash_type)
+			case flash_type
+				when 'success'
+					'alert-success'
+				when 'error'
+					'alert-danger'
+				when 'alert'
+					'alert-warning'
+				when 'notice'
+					'alert-info'
+			else
+				flash_type.to_s
 			end
 		end
 	

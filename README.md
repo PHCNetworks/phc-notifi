@@ -18,9 +18,9 @@ Add the line of code below into your app/controllers/application_controller.rb (
 #### How to Add Notifications to Layouts
 Add the line of code below to your app/views/layouts/application.rb  
 
-	<%= render 'phcnotifi/notifications' %>
+	<%= render 'phcnotifi/default/notifications' %>
 
 #### How to Add Validations to your Form
 Add the line of code below to your _form.rb file. Change @example_object to the same one on your form.  
 
-	<%= render 'phcnotifi/validations', :object => @example_object %>
+	<%= render 'phcnotifi/default/validations', :object => @example_object %>
